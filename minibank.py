@@ -7,6 +7,7 @@ def creating_account_number():
 
 def create_account():
     name=int(input('Enter the Cutomer name: ')).strip()
+    #Nitha testing github=====================================================
     try:
         starting_balance = float(input('Enter your strting balance: '))
         if starting_balance<0:
